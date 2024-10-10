@@ -46,11 +46,11 @@ class Book {
 ### Impelementation using PHP code
 | Name | Implement | Testing-Run | Fast Running | Notes |
 | ---- | --------- | ----------- | ------------ | ----- |
-| Association - Multiplicity | [ ( 1..1 ) One To One ](implementation\php\app\Association\OneToOne) |  [ test_one_to_one ](implementation\php\tests\AssociationTest.php) | [One-To-One](implementation\php\app\Association\Run\One-to-One) | |
-| - | [ ( 1..* ) One To Many ](implementation\php\app\Association\OneToMany) | [ test_one_to_many ](implementation\php\tests\AssociationTest.php) | [One-To-Many](implementation\php\app\Association\Run\One-to-Many) | |
-| - | [ ( \*..* ) Many To Many ](implementation\php\app\Association\ManyToMany) | [ test_many_to_many ](implementation\php\tests\AssociationTest.php) | [Many-To-Many](implementation\php\app\Association\Run\Many-to-Many) | |
-| - | [ ( 0..1 ) Zero To One ](implementation\php\app\Association\ZeroToOne) | [ test_zero_to_one ](implementation\php\tests\AssociationTest.php) | [Zero-To-One](implementation\php\app\Association\Run\Zero-to-One) | |
-| - | [ ( 0..* ) Zero To Many ](implementation\php\app\Association\ZeroToMany) | [ test_zero_to_many ](implementation\php\tests\AssociationTest.php) | [Zero-To-Many](implementation\php\app\Association\Run\Zero-to-Many) | |
+| Association - Multiplicity | [ ( 1..1 ) One To One ](implementation/php/app/Association/OneToOne) |  [ test_one_to_one ](implementation/php/tests/AssociationTest.php) | [One-To-One](implementation/php/app/Association/Run/One-to-One) | |
+| - | [ ( 1..* ) One To Many ](implementation/php/app/Association/OneToMany) | [ test_one_to_many ](implementation/php/tests/AssociationTest.php) | [One-To-Many](implementation/php/app/Association/Run/One-to-Many) | |
+| - | [ ( \*..* ) Many To Many ](implementation/php/app/Association/ManyToMany) | [ test_many_to_many ](implementation/php/tests/AssociationTest.php) | [Many-To-Many](implementation/php/app/Association/Run/Many-to-Many) | |
+| - | [ ( 0..1 ) Zero To One ](implementation/php/app/Association/ZeroToOne) | [ test_zero_to_one ](implementation/php/tests/AssociationTest.php) | [Zero-To-One](implementation/php/app/Association/Run/Zero-to-One) | |
+| - | [ ( 0..* ) Zero To Many ](implementation/php/app/Association/ZeroToMany) | [ test_zero_to_many ](implementation/php/tests/AssociationTest.php) | [Zero-To-Many](implementation/php/app/Association/Run/Zero-to-Many) | |
 | Aggregation |  |  |  |  |
 | Composition |  |  |  |  |
 | Inheritance - Generalization |  |  |  |  |
@@ -58,27 +58,27 @@ class Book {
 | Realization |  |  |  |  |
 
 ### **Association - Multiplicity**
-![ Association - Multiplicity ](diagrams\images\Association\Multiplicity-cover.jpg)
+![ Association - Multiplicity ](diagrams/images/Association/Multiplicity-cover.jpg)
 ____________________________
 **( 1..1 ) One To One**
 ____________________________
-* ![ ( 1..1 ) One To One image ](diagrams\images\Association\Association-One-to-One.jpg)
+* ![ ( 1..1 ) One To One image ](diagrams/images/Association/Association-One-to-One.jpg)
 ____________________________
 **( 1..\* ) One To Many**
 ____________________________
-* ![ ( 1..* ) One To Many image ](diagrams\images\Association\Association-One-to-Many.jpg)
+* ![ ( 1..* ) One To Many image ](diagrams/images/Association/Association-One-to-Many.jpg)
 ____________________________
 **( \*..\* ) Many To Many**
 ____________________________
-* ![ ( *..* ) Many To Many image ](diagrams\images\Association\Association-Many-to-Many.jpg)
+* ![ ( *..* ) Many To Many image ](diagrams/images/Association/Association-Many-to-Many.jpg)
 ____________________________
 **( 0..1 ) Zero To One**
 ____________________________
-* ![ ( 0..1 ) Zero To One image ](diagrams\images\Association\Association-Zero-to-One.jpg)
+* ![ ( 0..1 ) Zero To One image ](diagrams/images/Association/Association-Zero-to-One.jpg)
 ____________________________
 **( 0..\* ) Zero To Many**
 ____________________________
-* ![ ( 0..* ) Zero To Many image ](diagrams\images\Association\Association-Zero-to-Many.jpg)
+* ![ ( 0..* ) Zero To Many image ](diagrams/images/Association/Association-Zero-to-Many.jpg)
 
 ### **Aggregation**
 

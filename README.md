@@ -43,15 +43,16 @@ class Book {
 
 ## Relationships
 
-### Impelementation using PHP code
-| Name | Implement | Testing-Run | Fast Running | Notes |
-| ---- | --------- | ----------- | ------------ | ----- |
+### Example impelementation using PHP code
+| Name | Code Implement | Testing-Run | Fast Running | Notes |
+| ---- | -------------- | ----------- | ------------ | ----- |
 | Association - Multiplicity | [ ( 1..1 ) One To One ](implementation/php/app/Association/OneToOne) |  [ test_one_to_one ](implementation/php/tests/AssociationTest.php#L17) | [One-To-One](implementation/php/app/Association/Run/One-To-One) | |
 | - | [ ( 1..* ) One To Many ](implementation/php/app/Association/OneToMany) | [ test_one_to_many ](implementation/php/tests/AssociationTest.php#L26) | [One-To-Many](implementation/php/app/Association/Run/One-To-Many) | |
 | - | [ ( \*..* ) Many To Many ](implementation/php/app/Association/ManyToMany) | [ test_many_to_many ](implementation/php/tests/AssociationTest.php#L40) | [Many-To-Many](implementation/php/app/Association/Run/Many-To-Many) | |
 | - | [ ( 0..1 ) Zero To One ](implementation/php/app/Association/ZeroToOne) | [ test_zero_to_one ](implementation/php/tests/AssociationTest.php#L57) | [Zero-To-One](implementation/php/app/Association/Run/Zero-to-One) | |
 | - | [ ( 0..* ) Zero To Many ](implementation/php/app/Association/ZeroToMany) | [ test_zero_to_many ](implementation/php/tests/AssociationTest.php#L68) | [Zero-To-Many](implementation/php/app/Association/Run/Zero-to-Many) | |
-| Aggregation |  |  |  |  |
+| Aggregation | [ Classroom-Teacher ](implementation/php/app/Aggregation/ClassroomTeacher) | [ test_example_department_employee ](implementation/php/tests/AggregationTest.php#L12) | [ Classroom-Teacher-Run ](implementation/php/app/Aggregation/Run/Classroom-Teacher.php) | |
+| - | [ Department-Employee ](implementation/php/app/Aggregation/DepartmentEmployee) | [ test_example_teacher_classroom ](implementation/php/tests/AggregationTest.php#L26) | [ Department-Employee-Run ](implementation/php/app/Aggregation/Run/Department-Employee.php) | |
 | Composition |  |  |  |  |
 | Inheritance - Generalization |  |  |  |  |
 | Dependency |  |  |  |  |
@@ -81,7 +82,11 @@ ____________________________
 * ![ ( 0..* ) Zero To Many image ](diagrams/images/Association/Association-Zero-to-Many.jpg)
 
 ### **Aggregation**
-
+![ Aggregation ](diagrams/images/Aggregation/Aggregation-cover.jpg)
+____________________________
+**Aggregation relation**
+____________________________
+* ![ Aggregation relation image ](diagrams/images/Aggregation/Aggregation.jpg)
 
 ### **Composition**
 

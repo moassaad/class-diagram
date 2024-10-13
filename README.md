@@ -53,7 +53,8 @@ class Book {
 | - | [ ( 0..* ) Zero To Many ](implementation/php/app/Association/ZeroToMany) | [ test_zero_to_many ](implementation/php/tests/AssociationTest.php#L68) | [Zero-To-Many](implementation/php/app/Association/Run/Zero-to-Many) | |
 | Aggregation | [ Classroom-Teacher ](implementation/php/app/Aggregation/ClassroomTeacher) | [ test_example_department_employee ](implementation/php/tests/AggregationTest.php#L12) | [ Classroom-Teacher-Run ](implementation/php/app/Aggregation/Run/Classroom-Teacher.php) | |
 | - | [ Department-Employee ](implementation/php/app/Aggregation/DepartmentEmployee) | [ test_example_teacher_classroom ](implementation/php/tests/AggregationTest.php#L26) | [ Department-Employee-Run ](implementation/php/app/Aggregation/Run/Department-Employee.php) | |
-| Composition |  |  |  |  |
+| Composition | [ Car-Tire ](implementation/php/app/Composition/CarTire) | [ test_example_car_tire ](implementation/php/tests/CompositionTest.php#L12) | [ Car-Tire-Run ](implementation/php/app/Composition/Run/Car-Tire.php) | |
+| - | [ House-Room ](implementation/php/app/Composition/HouseRoom) | [ test_example_house_room ](implementation/php/tests/CompositionTest.php#L29) | [ House-Room-Run ](implementation/php/app/Composition/Run/House-Room.php) <br> [ House-Room-2-Run ](implementation/php/app/Composition/Run/House-Room-2.php) | |
 | Inheritance - Generalization |  |  |  |  |
 | Dependency |  |  |  |  |
 | Realization |  |  |  |  |
@@ -89,7 +90,11 @@ ____________________________
 * ![ Aggregation relation image ](diagrams/images/Aggregation/Aggregation.jpg)
 
 ### **Composition**
-
+![ Composition ](diagrams/images/Composition/Composition-cover.jpg)
+____________________________
+**Composition relation**
+____________________________
+* ![ Composition relation image ](diagrams/images/Composition/Composition.jpg)
 
 ### **Inheritance - Generalization**
 

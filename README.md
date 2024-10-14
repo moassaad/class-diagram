@@ -55,7 +55,8 @@ class Book {
 | - | [ Department-Employee ](implementation/php/app/Aggregation/DepartmentEmployee) | [ test_example_teacher_classroom ](implementation/php/tests/AggregationTest.php#L26) | [ Department-Employee-Run ](implementation/php/app/Aggregation/Run/Department-Employee.php) | |
 | Composition | [ Car-Tire ](implementation/php/app/Composition/CarTire) | [ test_example_car_tire ](implementation/php/tests/CompositionTest.php#L12) | [ Car-Tire-Run ](implementation/php/app/Composition/Run/Car-Tire.php) | |
 | - | [ House-Room ](implementation/php/app/Composition/HouseRoom) | [ test_example_house_room ](implementation/php/tests/CompositionTest.php#L29) | [ House-Room-Run ](implementation/php/app/Composition/Run/House-Room.php) <br> [ House-Room-2-Run ](implementation/php/app/Composition/Run/House-Room-2.php) | |
-| Inheritance - Generalization |  |  |  |  |
+| Inheritance - Generalization | [ Vehicles ](implementation/php/app/Inheritance/Vehicles) | [ test_example_vehicles ](implementation/php/tests/InheritanceTest.php#L12) | [ Vehicles-Run ](implementation/php/app/Inheritance/Run/Vehicles.php) | |
+| - | [ Animals ](implementation/php/app/Inheritance/Animals) | [ test_example_animals ](implementation/php/tests/InheritanceTest.php#L22) | [ Animals-Run ](implementation/php/app/Inheritance/Run/Animals.php) | |
 | Dependency |  |  |  |  |
 | Realization |  |  |  |  |
 
@@ -97,7 +98,11 @@ ____________________________
 * ![ Composition relation image ](diagrams/images/Composition/Composition.jpg)
 
 ### **Inheritance - Generalization**
-
+![ Inheritance ](diagrams/images/Generalization/Generalization-cover.jpg)
+____________________________
+**Inheritance - Generalization relation**
+____________________________
+* ![ Inheritance relation image ](diagrams/images/Generalization/Generalization.jpg)
 
 ### **Dependency**
 

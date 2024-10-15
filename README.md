@@ -57,7 +57,8 @@ class Book {
 | - | [ House-Room ](implementation/php/app/Composition/HouseRoom) | [ test_example_house_room ](implementation/php/tests/CompositionTest.php#L29) | [ House-Room-Run ](implementation/php/app/Composition/Run/House-Room.php) <br> [ House-Room-2-Run ](implementation/php/app/Composition/Run/House-Room-2.php) | |
 | Inheritance - Generalization | [ Vehicles ](implementation/php/app/Inheritance/Vehicles) | [ test_example_vehicles ](implementation/php/tests/InheritanceTest.php#L12) | [ Vehicles-Run ](implementation/php/app/Inheritance/Run/Vehicles.php) | |
 | - | [ Animals ](implementation/php/app/Inheritance/Animals) | [ test_example_animals ](implementation/php/tests/InheritanceTest.php#L22) | [ Animals-Run ](implementation/php/app/Inheritance/Run/Animals.php) | |
-| Dependency |  |  |  |  |
+| Dependency | [ Car-Engine ](implementation/php/app/Dependency/CarEngine) | [ test_example_car_engine ](implementation/php/tests/DependencyTest.php#L12) | [ Car-Engine-Run ](implementation/php/app/Dependency/Run/Car-Engine.php) | |
+| - | [ Library-Book ](implementation/php/app/Dependency/LibraryBook) | [ test_example_library_car ](implementation/php/tests/DependencyTest.php#L21) | [ Library-Book-Run ](implementation/php/app/Dependency/Run/Library-Book.php) | |
 | Realization |  |  |  |  |
 
 ### **Association - Multiplicity**
@@ -105,7 +106,11 @@ ____________________________
 * ![ Inheritance relation image ](diagrams/images/Generalization/Generalization.jpg)
 
 ### **Dependency**
-
+![ Dependency ](diagrams/images/Dependency/Dependency-cover.jpg)
+____________________________
+**Dependency relation**
+____________________________
+* ![ Dependency relation image ](diagrams/images/Dependency/Dependency.jpg)
 
 ### **Realization**
 

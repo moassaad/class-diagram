@@ -1,4 +1,5 @@
 # Class Diagram Documentation
+
 ## Creating the class
 In this section, we explain how to create a class in the system. Below is an example using PHP and image.
 
@@ -59,7 +60,9 @@ class Book {
 | - | [ Animals ](implementation/php/app/Inheritance/Animals) | [ test_example_animals ](implementation/php/tests/InheritanceTest.php#L22) | [ Animals-Run ](implementation/php/app/Inheritance/Run/Animals.php) | |
 | Dependency | [ Car-Engine ](implementation/php/app/Dependency/CarEngine) | [ test_example_car_engine ](implementation/php/tests/DependencyTest.php#L12) | [ Car-Engine-Run ](implementation/php/app/Dependency/Run/Car-Engine.php) | |
 | - | [ Library-Book ](implementation/php/app/Dependency/LibraryBook) | [ test_example_library_car ](implementation/php/tests/DependencyTest.php#L21) | [ Library-Book-Run ](implementation/php/app/Dependency/Run/Library-Book.php) | |
-| Realization |  |  |  |  |
+| Realization | [ Payment-Method ](implementation/php/app/Realization/PaymentMethod) | [ test_example_payment_method ](implementation/php/tests/RealizationTest.php#L14) | [ Payment-Method-Run ](implementation/php/app/Realization/Run/PaymentMethod.php) | |
+| - | [ Device ](implementation/php/app/Realization/Device) | [ test_example_device ](implementation/php/tests/RealizationTest.php#L24) | [ Device-Run ](implementation/php/app/Realization/Run/Device.php) | |
+| - | [ Movable ](implementation/php/app/Realization/Movable) | [ test_example_movable ](implementation/php/tests/RealizationTest.php#L36) | [ Movable-Run ](implementation/php/app/Realization/Run/Movable.php) | |
 
 ### **Association - Multiplicity**
 ![ Association - Multiplicity ](diagrams/images/Association/Multiplicity-cover.jpg)
@@ -113,4 +116,8 @@ ____________________________
 * ![ Dependency relation image ](diagrams/images/Dependency/Dependency.jpg)
 
 ### **Realization**
-
+![ Realization ](diagrams/images/Realization/Realization-cover.jpg)
+____________________________
+**Realization relation**
+____________________________
+* ![ Realization relation image ](diagrams/images/Realization/Realization.jpg)
